@@ -1,6 +1,6 @@
 /*
  * #1
- * Функція для обчислення суми елементів масиву за допомогою reduce
+ * A function for calculating the sum of elements in an array using reduce
  */
 function sumArray(numbers) {
   return numbers.reduce((sum, current) => sum + current, 0)
@@ -8,7 +8,7 @@ function sumArray(numbers) {
 
 /*
  * #2
- * Функція для подвоєння елементів масиву за допомогою map
+ * A function for doubling elements in an array using map
  */
 function doubleArrayElements(numbers) {
   return numbers.map(number => number * 2)
@@ -16,7 +16,7 @@ function doubleArrayElements(numbers) {
 
 /*
  * #3
- * Клас для управління списком навичок
+ * A class for managing a list of skills
  */
 class SkillsManager {
   constructor() {
@@ -38,7 +38,7 @@ class SkillsManager {
 
 /*
  * #4
- * Калькулятор дат (функція-конструктор)
+ * A date calculator (constructor function)
  */
 function DateCalculator(initialDate) {
   this.date = new Date(initialDate)
